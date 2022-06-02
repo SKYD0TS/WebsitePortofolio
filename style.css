@@ -136,7 +136,6 @@ body{
 
   background-color: var(--theme);
 
-  pointer-events: none;
   height: 0%;
   width: 100%;
   transition: all .5s ease-in-out;
