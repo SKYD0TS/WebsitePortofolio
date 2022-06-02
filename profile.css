@@ -1,0 +1,26 @@
+.page{
+    display: flex;
+}
+
+.text{
+    padding: 2%;
+    width: 100%;
+    
+    border-left: var(--borderSize) double var(--bright);
+    border-top: var(--borderSize) double var(--bright);
+    border-bottom: calc(var(--borderSize)*.2) double var(--bright);
+    border-right: calc(var(--borderSize) *.2) double var(--bright);
+    
+
+    border-radius: var(--borderRad);
+    margin: 2em;
+}
+
+img{
+    position: relative;
+    margin: 2em;
+    height: 50%;
+    border: var(--borderSize) double var(--bright);
+    border-radius: var(--borderRad);
+    
+}

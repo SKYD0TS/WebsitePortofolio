@@ -1,0 +1,14 @@
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+.youtube{
+    width: 40%;
+    height: 40%;
+
+    border: var(--borderSize) double var(--bright);
+    border-radius: var(--borderRad);
+
+}

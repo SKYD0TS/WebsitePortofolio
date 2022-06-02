@@ -1,0 +1,32 @@
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member{
+    background-color: var(--dark);
+
+    border: var(--borderSize) double var(--bright);
+    border-radius: var(--borderRad);
+
+
+    display: flex;
+    margin: .5em;
+    height:10em;
+    width: 28em;
+
+}
+
+img{
+    height: 8em;
+    width: 8em;
+
+    margin: 1em;
+    border: var(--borderSize) double var(--bright);
+    border-radius: var(--borderRad);
+
+}
+
+.text{
+    padding: 1em;
+}

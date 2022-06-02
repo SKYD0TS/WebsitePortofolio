@@ -1,0 +1,22 @@
+.page{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+
+
+
+th{
+    background-color: var(--dark);
+}
+
+table, td{
+    border: var(--borderSize) double var(--bright);
+    border-radius: var(--borderRad);
+}
+
+th,td{
+    width: 10em;
+    word-wrap: break-word;
+}

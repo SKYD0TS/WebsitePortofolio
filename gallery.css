@@ -1,0 +1,33 @@
+.page{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.pics{
+    height:12em;
+    width: 12em;
+    
+    border: var(--borderSize) solid var(--bright);
+    border-radius: var(--borderRad);
+
+    margin: 1em;
+
+    transition: ease-in-out .1s;
+
+}
+
+.pics:hover{
+    height: 16em;
+    width:  16em;
+    transition: ease-in-out .1s;
+}
+
+img{
+    object-fit:cover;
+    object-position: 90%;
+    height: 100%;
+    width: 100%;
+
+}
+
