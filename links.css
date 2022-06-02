@@ -1,0 +1,16 @@
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.page > div, a{
+    height: 64px;
+    width: 64px;
+}
+
+.page > div, a{
+    margin: 1em;
+
+    border: var(--borderSize) double var(--bright);
+    border-radius: var(--borderRad);
+}

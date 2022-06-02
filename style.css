@@ -210,3 +210,7 @@ body{
   margin: 0;
   padding: 1em;
 }
+
+a:visited{
+  color: var(--bright);
+}
