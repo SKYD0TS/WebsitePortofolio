@@ -30,7 +30,6 @@ body{
 
   justify-content: center;
   align-items: center;
-  justify-items: center;
 }
 
 .name{
@@ -95,6 +94,7 @@ body{
   box-shadow: 8px 10px 7px 1px rgba(0,0,0,.5);
 
 
+
 }
 
 
@@ -144,13 +144,13 @@ body{
 } 
 
 .card img{
-  position:fixed;
-  top: 18%;
-
+  position:absolute;
   border-radius: 1em;
-  width: 10%;
+  width: 12vw;
   border: solid var(--dark) 1px;
   pointer-events: none;
+
+  transform: translateY(3em);
 
 }
 

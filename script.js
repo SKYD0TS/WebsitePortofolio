@@ -5,6 +5,6 @@ function load (){
 
 function delay (URL) {
     color.classList.add("transit");
-    setTimeout( function() { window.location = URL }, 500 );
+    setTimeout( function() { window.location = URL }, 250 );
 
 }
