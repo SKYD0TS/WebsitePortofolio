@@ -150,7 +150,7 @@ body{
   border: solid var(--dark) 1px;
   pointer-events: none;
 
-  transform: translateY(3em);
+  transform: translateY(2em);
 
 }
 
